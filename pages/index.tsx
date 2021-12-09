@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { getStaticProps } from '../components/staticApi';
+import { getStaticProps } from './staticApi';
 
 const Home: NextPage = () => {
 
@@ -7,7 +7,9 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <div></div>
+      <div>
+        
+      </div>
     </>
   );
 }
