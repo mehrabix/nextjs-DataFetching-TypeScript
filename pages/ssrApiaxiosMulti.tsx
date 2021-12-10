@@ -39,7 +39,8 @@ type props = {
     }
 };
 const ssrApiaxiosMulti = (props: props) => {
-  return (
+    return (
+      <>
       <div>
           <h1>SSR with multiple API calls</h1>
           <div className="flex">
@@ -49,7 +50,8 @@ const ssrApiaxiosMulti = (props: props) => {
               <img src={props.microsoft.avatar_url} alt="microsoft" />
               <img src={props.apple.avatar_url} alt="apple" />
           </div>
-        </div>
+            </div>
+            </>
         
   );
 };
