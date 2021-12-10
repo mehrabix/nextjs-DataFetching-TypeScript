@@ -9,7 +9,6 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   };
 };
-
 type props = {
   data: [
     {
@@ -18,7 +17,6 @@ type props = {
     }
   ]
 }
-
 const StaticApi = (props: props) => {
   console.log(props.data);
   return (

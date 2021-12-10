@@ -1,8 +1,6 @@
 import { GetStaticProps } from "next";
 import axios from "axios";
 
-
-
 export const getStaticProps: GetStaticProps = async () => {
   const res = await axios.get("https://jsonplaceholder.typicode.com/users");
   const data = res.data
